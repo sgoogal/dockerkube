@@ -7,7 +7,7 @@ doGenerateSubmoduleConfigurations: false,
 extensions: [],
 submoduleCfg: [],
 userRemoteConfigs:
-[[url: 'git@github.com:sgoogal/demo.git']]])
+[[url: 'git@github.com:sgoogal/dockerkube.git']]])
         }
 
 stage('build and publish to Nexus') {
