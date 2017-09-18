@@ -15,6 +15,6 @@ stage('switch user to root') {
     }
 
 stage('build and publish to Nexus') {
-        sh 'gradle clean install uploadArchives'
+        sh 'gradle upload'
     }
 }
