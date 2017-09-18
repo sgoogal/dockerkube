@@ -6,7 +6,7 @@ mainClassName = 'demoone.webapp'
 
 repositories {
     maven {
-          url "http://localhost:8081/nexus/"
+          url "http://23.236.54.82:8081/nexus/"
     }
 }
 
@@ -22,10 +22,10 @@ jar {
 uploadArchives {
     repositories {
        mavenDeployer {
-             repository(url: "http://http://23.236.54.82:8081/repository/maven-releases/") {
+             repository(url: "http://23.236.54.82:8081/repository/maven-releases/") {
              authentication(userName: "admin", password: "admin123")
 }
-             pom.version = "5.0"
+             pom.version = "7.0"
              pom.artifactId = "webapp"
              pom.groupId = "com.rakten"
        }
