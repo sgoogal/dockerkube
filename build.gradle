@@ -25,7 +25,7 @@ uploadArchives {
              repository(url: "http://23.236.54.82:8081/repository/maven-releases/") {
              authentication(userName: "admin", password: "admin123")
 }
-             pom.version = "7.0"
+             pom.version = "8.0"
              pom.artifactId = "webapp"
              pom.groupId = "com.rakten"
        }
